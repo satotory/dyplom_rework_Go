@@ -3,3 +3,5 @@
   Reworked: 
   
   Old: [satotory.github.io](https://satotory.github.io)
+
+Can be downloaded and work on localhost
