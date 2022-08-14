@@ -9,10 +9,12 @@
         <link rel='shortcut icon' href='/static/img/favicon.ico' type='image/x-icon'>
         <!-- Подключаем новый шрифт для сайта от Google Fonts -->
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700'>
+        
+        <script src="/static/js/bootstrap.min.js"></script>
     </head>
     
-    <body>
-        <header class="site-header">
+    <body class="d-flex flex-column min-vh-100 container-lg pt-5 mx-auto" id="main">
+        <header class="">
             {{template "nav" .}}
         </header>
         

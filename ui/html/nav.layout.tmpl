@@ -1,6 +1,10 @@
 {{define "nav"}}
 
-<a class="site-title" rel="author" href="/">Теория</a>
-<a id="pdf1" class="pdf" href="/indexpraktika.html">Практика</a>
+<nav>
+  <div class="nav nav-pills justify-content-center" id="nav-tab" role="tablist">
+    <button class="mx-3 w-25 nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Lessons</button>
+    <button class="mx-3 w-25 nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Practice</button>
+  </div>
+</nav>
 
 {{end}}

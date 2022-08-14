@@ -3,6 +3,8 @@
 {{define "title"}}Электронное пособие | {{end}}
  
 {{define "main"}}
-<h2>Последние заметки</h2>
-<p>Пока здесь ничего нет!</p>
+    <div class="tab-content my-5 mx-4" id="nav-tabContent">
+        {{template "nav-lessons" .}}
+        {{template "nav-practice" .}}
+    </div>
 {{end}}
