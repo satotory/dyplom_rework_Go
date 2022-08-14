@@ -1,5 +1,5 @@
   Hi! There will be a link here when I finish the project 
   
-  Old: 
+  Reworked: 
   
-  Reworked: [satotory.github.io](https://satotory.github.io)
+  Old: [satotory.github.io](https://satotory.github.io)
